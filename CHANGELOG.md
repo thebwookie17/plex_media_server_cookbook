@@ -5,6 +5,3 @@ This file is used to list changes made in each version of the plex_media_server_
 ## 0.1.0
 
 Initial release.
-
-- change 0
-- change 1

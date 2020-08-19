@@ -1,8 +1,9 @@
-# Plex Media Server Cookbook 
+# Plex Media Server Cookbook
 
 Cookbook for Setting up Plex Media Server on a RHEL Linux Machine.
 
 ***Supports***
+
 - Centos7
 
 ## Contributing
@@ -10,32 +11,43 @@ Cookbook for Setting up Plex Media Server on a RHEL Linux Machine.
 ### Before Pushing
 
 - Run with bundler.
-   ```
+
+   ```sh
    bundle install
    ```
+
 - Verify Test Kitchen passes.
-   ```
+
+   ```sh
    bundle exec kitchen list
    bundle exec kitchen create
    bundle exec kitchen converge
    bundle exec kitchen verify
    bundle exec kitchen login
-   bundle exec Kitchen destroy 
+   bundle exec Kitchen destroy
    ```
+
 - Run rspec.
-   ```
+
+   ```sh
    bundle exec rspec
+   ```
+
+- Run cookstyle.
+
+   ```sh
+   bundle exec cookstyle
+   ```
+
+- Run markdownlint.
+
+   ```sh
+   bundle exec mdl *.md
    ```
 
 ## TODO
 
-- Test kitchen should run on a centos7 box.
-- Initial specs should pass.
-- Add berkshelf.
 - Add markdownlint.
-- Need a .ruby-version file.
-- Add foodcritic.
-- Add cookstyle.
 - Start coding.
 
 ## Notes
