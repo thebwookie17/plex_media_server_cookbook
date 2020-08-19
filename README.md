@@ -45,11 +45,6 @@ Cookbook for Setting up Plex Media Server on a RHEL Linux Machine.
    bundle exec mdl *.md
    ```
 
-## TODO
-
-- Add markdownlint.
-- Start coding.
-
 ## Notes
 
 ### How to Set up server manually
