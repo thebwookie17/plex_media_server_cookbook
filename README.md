@@ -22,6 +22,10 @@ Cookbook for Setting up Plex Media Server on a RHEL Linux Machine.
    bundle exec kitchen login
    bundle exec Kitchen destroy 
    ```
+- Run rspec.
+   ```
+   bundle exec rspec
+   ```
 
 ## TODO
 
