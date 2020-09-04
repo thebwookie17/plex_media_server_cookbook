@@ -1,0 +1,5 @@
+.bundle/
+.kitchen/*
+Gemfile.lock
+Policyfile.lock.json
+vendor/*

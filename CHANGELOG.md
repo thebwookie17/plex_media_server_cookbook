@@ -6,5 +6,4 @@ This file is used to list changes made in each version of the plex_media_server_
 
 Initial release.
 
-- change 0
-- change 1
+- Initial development setup: Cookstyle, Markdownlint, etc added.

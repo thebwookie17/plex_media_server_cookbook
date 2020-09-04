@@ -1,6 +1,6 @@
 name 'plex_media_server_cookbook'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'thebwookie'
+maintainer_email 'thebwookie17@gmail.com'
 license 'All Rights Reserved'
 description 'Installs/Configures plex_media_server_cookbook'
 version '0.1.0'
